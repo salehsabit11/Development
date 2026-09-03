@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    line-height: 1.2;
+    color: rgb(11, 6, 1);
+    background-color: aliceblue;
+}
+
+body>header{
+    width: 99.99%;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    background-color: rgb(184, 186, 188);
+    position: sticky;
+}
+body>header>img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 16px;
+   
+}
+
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-links a{
+    color: rgb(182, 69, 69);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover{
+    color: black;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: 350px;
+    flex: 1;
+}
+.label{
+    position:absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    font-size: 50px;
+}
+.placeholder{
+    width: 100%;
+    height: 20px;
+    padding: 10 40;
+    border: 1px solid grey;
+    border-radius: 20;
+    font-size: 20;
+    outline: none;
+    transition: border-color 0.3s ease,
+                box-shadow 0.3 ease;
+
+}
+.placeholder:focus{
+    border-color: aqua;
+    box-shadow: 0 0 0 2px gray;
+}
+button{
+    padding: 10 16;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    color: rgb(8, 7, 6);
+    cursor: pointer;
+}
+button:hover{
+    background-color: blueviolet;
+}
+.login a{
+    margin: 10px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+}
+
+.login a:hover{
+    color: brown;
+}
+main{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+}
+article{
+    background-color: rgb(160, 155, 148);
+    padding: 50px;
+    color: rgb(7, 1, 1);
+    border-radius: 18px;
+}
+article>header{
+    margin-bottom: 15px;
+    text-align: center;
+}
+article>section>h3{
+    color: darkblue;
+    margin-bottom: 8px;
+}
+article>section>p{
+    margin: 5 5 5 5;
+    font-size: 15px;
+font-weight: italic;
+
+}
+
+article>section>ul{
+    
+    align-items: center;
+    padding: 10;
+    color:black;
+}
+
+footer{
+    width: 100%;
+    padding: 25px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(12, 11, 9);
+    border-radius: 10px;
+    color: aliceblue;
+    align-items: center;
+}
